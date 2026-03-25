@@ -40,7 +40,7 @@ public class ForMenu {
                 }
 
                 Datos datos = new Datos(nombre, edad, grado, estado, comidaf, colorf);
-                System.out.println(" Nombre: " + datos.NOMBRE + " Edad: " + datos.EDAD + " Grado: " + datos.GRADO + "Estado: " + datos.ESTADO + "Comida: " + datos.COMIDA + "Color: " + datos.COLOR);
+                System.out.println(" Nombre: " + datos.NOMBRE + " Edad: " + datos.EDAD + " Grado: " + datos.GRADO + " Estado: " + datos.ESTADO + " Comida: " + datos.COMIDA + " Color: " + datos.COLOR);
                 Cuento cuento = new Cuento();
                 String cuentoF = cuento.Cuento(nombre, edad, grado, estado, comidaf, colorf);
                 System.out.println(cuentoF);
